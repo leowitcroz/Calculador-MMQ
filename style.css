@@ -1,0 +1,110 @@
+.container {
+    
+    
+    background-color: rgb(54, 156, 6);
+    width: 50%;
+    height: 60rem;
+    margin: auto;
+    border-radius: 10px;
+    border-color: black;
+   
+    
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 2.5rem;
+    color: aliceblue;
+    border-bottom: 2px solid black;
+    font-weight: bold;
+    width: 100%;
+    height: 72px;
+    margin-bottom: 20px;
+    padding-top: 6%;
+  }
+
+  .tudo{
+
+    display: flex;
+    margin-top: 10%;
+    margin-bottom: 16%;
+    margin-left: 25%;
+  }
+  
+  .variaveis-X {
+    
+    
+    display: flex;
+    flex-direction: column;
+    padding-right: 10%;
+    text-align: center;
+    
+
+  }
+
+  .variaveis-Y {
+    text-align: center;
+    
+    
+  }
+  
+  .input input {
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    outline: 0;
+    font: bold 1.5rem;
+    text-align: center;
+    border: 2px solid black;
+    padding: 1%;
+  }
+  
+  button {
+    background-color: rgb(93, 64, 172);
+    border-radius: 1rem;
+    width: 224px;
+    height: 50px;
+    outline: none;
+    cursor: pointer;
+    margin-left: 19%;
+   
+  }
+  .results{
+
+    margin-left: -60%;
+    margin-top: 65%;
+  }
+  #resultadoangular {
+    
+    margin-top: 20px;
+    align-items: center;
+    width: 360px;
+    height: 22%;
+    border-radius: 1rem;
+    font: italic 1rem;
+    background-color: rgb(93, 64, 172);
+    padding: 20px;
+    box-sizing: border-box;
+    user-select: none;
+    border: 2px solid black;
+
+}
+#resultadolinear {
+    
+    margin-top: 20px;
+    align-items: center;
+    width: 360px;
+    height: 22%;
+    border-radius: 1rem;
+    font: italic 1rem;
+    background-color: rgb(93, 64, 172);
+    padding: 20px;
+    box-sizing: border-box;
+    user-select: none;
+    border: 2px solid black;
+}
+
+.nome{
+    padding: 1%;
+}
